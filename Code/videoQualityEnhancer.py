@@ -1,15 +1,8 @@
 
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar  9 13:29:22 2020
-@author: Arun
-"""
-
 import numpy as np 
 import cv2
 
-#Taken from Adrian Rosebrock and adapted for our needs
+# Taken from Adrian Rosebrock and adapted for our needs
 
 def gamma_correct(image, gamma):
     # build a lookup table mapping the pixel values [0, 255] to their adjusted gamma values
@@ -41,11 +34,11 @@ def equalize_light(image, limit=2, grid=(8,8), gray=False):
     return np.uint8(image) 
 
 def main():
-    cap = cv2.VideoCapture('nightdrive.mp4')
+    cap = cv2.VideoCapture('Input_4.mp4')
     #gamma = 1.5#Change Gamma value and check
     # Define the codec and create VideoWriter object
     fourcc = cv2.VideoWriter_fourcc(*'MP4V')
-    out = cv2.VideoWriter('prob1_output.mp4', fourcc, 30, (1920, 1080))
+    out = cv2.VideoWriter('Output_4.mp4', fourcc, 30, (1920, 1080))
     #fourcc = cv2.VideoWriter_fourcc(*'XVID')
     #out = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))
 

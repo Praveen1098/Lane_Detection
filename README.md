@@ -1,4 +1,4 @@
-# Lane Detection
+# Video Enhancement & Lane Detection
 - In this project we accomplish two tasks,
   - Enhance the contrast and improve the visual appearance of a night time driving video sequence.
   - We implement an algorithm to detect lanes on the road as well as estimate the road curvature to predict car turns.

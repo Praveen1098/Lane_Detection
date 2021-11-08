@@ -2,7 +2,7 @@
 The project focuses on enhancing the contrast and improve the visual appearance of the night video sequence and perform simple Lane Detection to mimic Lane Departure Warning systems used in Self Driving Cars.Our
 task will be to design an algorithm to detect lanes on the road, as well as estimate the road curvature to predict car turns.
 
-![Lane Prediction](/Outputs/sample.gif)
+![Lane Prediction](/Output/Sample.gif)
 
 
 ## Packages Required
